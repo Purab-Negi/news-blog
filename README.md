@@ -1,12 +1,54 @@
-# React + Vite
+# News & Blog Web App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+![React](https://img.shields.io/badge/React-18.2.0-blue?logo=react)  
+![Status](https://img.shields.io/badge/Status-Completed-brightgreen)
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+A fully responsive ReactJS web app that delivers the latest real-time news from around the world using the GNews API, along with a dedicated static blog section for long-form articles.
 
-## Expanding the ESLint configuration
+This project was a great learning experience for me, especially around API integration, state management, and improving frontend user experience.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## Live Demo
+
+[https://news-blog-s0s5.onrender.com/](https://news-blog-s0s5.onrender.com/)
+
+---
+
+## Features
+
+- Category-wise news filtering (Business, Technology, Sports, etc.)
+- Search functionality for specific news topics
+- Bookmark feature to save your favorite articles
+- Detailed article view using modals
+- Static blog section for reading informative blogs
+- Fully responsive design – mobile and desktop friendly
+
+---
+
+## Tech Stack
+
+- ReactJS
+- GNews API
+- CSS (Custom styling)
+- React Hooks & State Management
+
+---
+
+## Installation & Setup (For Local Development)
+
+```bash
+# Clone the repository
+git clone https://github.com/Purab-Negi/news-blog.git
+
+# Navigate to the project directory
+cd news-blog
+
+# Install dependencies
+npm install
+
+# Start the development server
+npm start
+```
